@@ -50,6 +50,39 @@ div[class^="col-"], .col {
    height: auto;
 }
 
+.h-300 {
+   height: 300px;
+}
+
+.top {
+   margin-top: 30px;
+}
+
+.h-100 {
+   height: 100px;
+}
+
+.around {
+   display: flex;
+   justify-content: space-around;
+   height: auto;
+}
+
+.bet {
+   display: flex;
+   justify-content: space-between;
+   /* height: auto; */
+   align-items: center;
+}
+
+.stre {
+   display: flex;
+   height: 50px;
+}
+
+
+
+
 /* Fine Main */
 /* -------------------------------------------------- */
 
