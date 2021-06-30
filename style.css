@@ -1,0 +1,57 @@
+*{
+   margin: 0; 
+   padding: 0; 
+   box-sizing: border-box; 
+}
+/* -------------------------------------------------- */
+
+/* Inizio Main */
+
+.container-fluid {
+   margin-bottom: 30px;
+}
+
+div[class^="col-"], .col {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.w-100 {
+   width: 100%;
+   padding: 10px;
+}
+
+.w-2 {
+   max-width: calc((100% / 12) * 2);
+}
+
+.h-auto {
+   height: auto;
+}
+
+.col {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+[class*="col-"], .col {
+   background-color: rgb(45, 93, 224);
+   border: 1px solid white;
+}
+
+.nested {
+   border: 1px solid rgb(45, 93, 224);
+   background-color: rgb(7, 207, 107);
+   padding: 10px;
+   height: auto;
+}
+
+/* Fine Main */
+/* -------------------------------------------------- */
+
+
+/* !DEBUG ZONE! */
