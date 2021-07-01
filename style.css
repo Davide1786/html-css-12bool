@@ -16,6 +16,7 @@ div[class^="col-"], .col {
    display: flex;
    justify-content: center;
    align-items: center;
+   float: left;
 }
 
 .w-100 {
@@ -50,8 +51,23 @@ div[class^="col-"], .col {
    height: auto;
 }
 
-.h-300 {
+.bet {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   flex-wrap: wrap;
    height: 300px;
+}
+
+.between {
+   height: 80px;
+}
+
+.betw {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 .top {
@@ -68,20 +84,10 @@ div[class^="col-"], .col {
    height: auto;
 }
 
-.bet {
-   display: flex;
-   justify-content: space-between;
-   /* height: auto; */
-   align-items: center;
-}
-
 .stre {
    display: flex;
    height: 50px;
 }
-
-
-
 
 /* Fine Main */
 /* -------------------------------------------------- */
